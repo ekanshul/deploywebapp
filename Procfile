@@ -1,0 +1,1 @@
+web: python generate_id_cards.py
