@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV to Generate ID Cards</title>
+</head>
+<body>
+    <h1>Upload a CSV File to Generate ID Cards</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
+        <button type="submit">Upload and Generate</button>
+    </form>
+
+    <div>
+        <h2>Generated ID Cards</h2>
+        <p>If your cards were generated successfully, you can download them <a href="/download">here</a>.</p>
+    </div>
+</body>
+</html>
